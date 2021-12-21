@@ -7,8 +7,9 @@
 		"start": "next start",
 		"lint": "next lint",
 		"test": "jest --watch",
-		"pre-push": "jest",
-		"pre-commit": "npx lint-staged"
+		"pre-test": "jest",
+		"pre-commit": "npx lint-staged",
+		"pre-push": "yarn pre-test"
 	},
 	"dependencies": {
 		"@hookform/resolvers": "^2.8.5",
