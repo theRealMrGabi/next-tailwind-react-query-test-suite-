@@ -20,6 +20,7 @@ module.exports = {
 		"@pages": "<rootDir>/pages",
 		"@assets": "<rootDir>/assets",
 		"@utils": "<rootDir>/utils",
+		"@services": "<rootDir>/services",
 	},
 	setupFilesAfterEnv: ["<rootDir>/jest.setup.ts"],
 	testPathIgnorePatterns: ["<rootDir>/node_modules/", "<rootDir>/.next/"],
